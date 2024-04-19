@@ -1,0 +1,42 @@
+{
+  "name": "@angelus123/temp-react-lib",
+  "version": "0.0.1",
+  "description": "A simple template for a custom React component library",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angelus123/temp-react-lib.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Angelus123"
+  },
+  "author": "IZERE Ange Felix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angelus123/temp-react-lib/issues"
+  },
+  "homepage": "https://github.com/Angelus123/temp-react-lib#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.79",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.14.3",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
